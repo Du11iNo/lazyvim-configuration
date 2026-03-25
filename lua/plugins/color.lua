@@ -36,6 +36,23 @@ return {
           ["@terminal.bright_magenta"] = { fg = "#B48EAD" },
           ["@terminal.bright_cyan"] = { fg = "#8FBCBB" },
           ["@terminal.bright_white"] = { fg = "#ECEFF4" },
+          ["@function"] = { fg = "#89b4fa", bold = true }, -- blue, bold
+          ["@function.call"] = { fg = "#89b4fa" },
+          ["@method"] = { fg = "#89dceb" },
+          ["@method.call"] = { fg = "#89dceb" },
+          ["@variable"] = { fg = "#cdd6f4" },
+          ["@variable.builtin"] = { fg = "#f38ba8" }, -- red (self, this)
+          ["@parameter"] = { fg = "#fab387", italic = true }, -- peach, italic
+          ["@type"] = { fg = "#f9e2af", bold = true }, -- yellow, bold
+          ["@type.builtin"] = { fg = "#f9e2af" },
+          ["@keyword"] = { fg = "#cba6f7", bold = true }, -- mauve
+          ["@string"] = { fg = "#a6e3a1" }, -- green
+          ["@number"] = { fg = "#fab387" }, -- peach
+          ["@boolean"] = { fg = "#f38ba8", bold = true }, -- red
+          ["@constant"] = { fg = "#f5c2e7", bold = true }, -- pink
+          ["@constant.builtin"] = { fg = "#f5c2e7" },
+          ["@property"] = { fg = "#89dceb" }, -- sky
+          ["@field"] = { fg = "#89dceb" },
         }
       end,
     },
